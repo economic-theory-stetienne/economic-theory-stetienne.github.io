@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Workshop in Economic Theory — Saint-Étienne, September 8, 2026</title>
+  <meta name="description" content="Workshop in Economic Theory, Saint-Étienne, September 8, 2026.">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f7f5;
+      --text: #202020;
+      --muted: #66635f;
+      --rule: #d8d6d1;
+      --soft: #eceae5;
+    }
+    * { box-sizing: border-box; }
+    html { background: var(--bg); }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+    }
+    .page {
+      width: min(940px, calc(100% - 44px));
+      margin: 0 auto;
+      padding: 72px 0 56px;
+    }
+    .hero {
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 34px;
+      margin-bottom: 34px;
+    }
+    .kicker {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 0.98rem;
+      letter-spacing: 0.01em;
+    }
+    h1 {
+      margin: 0;
+      max-width: 760px;
+      font-size: clamp(2.25rem, 6vw, 4.6rem);
+      line-height: 0.98;
+      letter-spacing: -0.045em;
+      font-weight: 650;
+    }
+    .location {
+      margin: 19px 0 0;
+      color: var(--muted);
+      font-size: 1.08rem;
+    }
+    h2 {
+      margin: 0 0 8px;
+      font-size: 1.15rem;
+      letter-spacing: -0.01em;
+    }
+    .program { margin-top: 4px; }
+    .talk {
+      display: grid;
+      grid-template-columns: 88px minmax(0, 1fr);
+      gap: 24px;
+      padding: 27px 0 28px;
+      border-top: 1px solid var(--rule);
+    }
+    .talk:first-of-type { border-top: 0; }
+    .time {
+      font-size: 1rem;
+      font-variant-numeric: tabular-nums;
+      color: var(--muted);
+      padding-top: 2px;
+    }
+    .speaker {
+      margin: 0;
+      font-size: 1.24rem;
+      line-height: 1.25;
+      font-weight: 650;
+      letter-spacing: -0.012em;
+    }
+    .affiliation {
+      margin: 4px 0 14px;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+    .title {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.2rem;
+      line-height: 1.42;
+    }
+    .coauthors {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+    .lunch {
+      background: var(--soft);
+      margin-left: -18px;
+      margin-right: -18px;
+      padding-left: 18px;
+      padding-right: 18px;
+      border-top: 0;
+    }
+    .lunch + .talk { border-top: 0; }
+    footer {
+      margin-top: 18px;
+      border-top: 1px solid var(--rule);
+      padding-top: 24px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    footer p { margin: 0; }
+    @media (max-width: 620px) {
+      .page {
+        width: min(100% - 30px, 940px);
+        padding-top: 42px;
+      }
+      .hero { padding-bottom: 27px; margin-bottom: 24px; }
+      h1 { font-size: clamp(2.25rem, 13vw, 3.45rem); }
+      .talk {
+        grid-template-columns: 1fr;
+        gap: 6px;
+        padding: 22px 0 23px;
+      }
+      .time { font-weight: 600; }
+      .affiliation { margin-bottom: 10px; }
+      .title { font-size: 1.12rem; }
+      .lunch {
+        margin-left: -10px;
+        margin-right: -10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <p class="kicker">Saint-Étienne · September 8, 2026</p>
+      <h1>Workshop in Economic Theory</h1>
+      <p class="location">Room 202 · Michelet Building · Saint-Étienne</p>
+    </header>
+
+    <main>
+      <h2>Program</h2>
+      <section class="program" aria-label="Workshop program">
+        <article class="talk">
+          <div class="time">11:00</div>
+          <div>
+            <h3 class="speaker">Yukihiko Funaki</h3>
+            <p class="affiliation">Waseda University</p>
+            <p class="title">The Fair Aspiration Core: Equivalence with the Per-Capita Least Core and an Axiomatization</p>
+            <p class="coauthors">with Yukio Koriyama, Stéphane Gonzalez and Satoshi Nakada</p>
+          </div>
+        </article>
+
+        <article class="talk">
+          <div class="time">12:00</div>
+          <div>
+            <h3 class="speaker">Stéphane Gonzalez</h3>
+            <p class="affiliation">Université Jean Monnet · GATE Lyon Saint-Étienne</p>
+            <p class="title">Aggregation Processes in Collective Decision Making under Uncertainty</p>
+            <p class="coauthors">with Le-Nhat-Linh Huynh</p>
+          </div>
+        </article>
+
+        <article class="talk lunch">
+          <div class="time">13:00</div>
+          <div>
+            <h3 class="speaker">Lunch</h3>
+            <p class="affiliation">Lunch boxes will be provided.</p>
+          </div>
+        </article>
+
+        <article class="talk">
+          <div class="time">14:00</div>
+          <div>
+            <h3 class="speaker">Yukio Koriyama</h3>
+            <p class="affiliation">École Polytechnique · CREST</p>
+            <p class="title">Sequential Pricing Mechanisms for Surplus Division</p>
+            <p class="coauthors">with Yukihiko Funaki, Matías Núñez and Giacomo Rostagno</p>
+          </div>
+        </article>
+
+        <article class="talk">
+          <div class="time">15:00</div>
+          <div>
+            <h3 class="speaker">Philippe Solal</h3>
+            <p class="affiliation">Université Jean Monnet · GATE Lyon Saint-Étienne</p>
+            <p class="title">A Model of Embedded Coalition Formation and the Shapley Values for Games with Externalities</p>
+            <p class="coauthors">with Encarnación Algaba and Eric Rémila</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Talks are approximately 50–55 minutes, including questions.</p>
+    </footer>
+  </div>
+</body>
+</html>
